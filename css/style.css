@@ -1,0 +1,400 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    width: 100%;
+}
+
+form {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+form ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #148DB3;
+    display: flex;
+    flex: 1;
+    padding: 0 5px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Passion One', Arial Black, sans-serif;
+    flex: 1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+}
+
+nav {
+    display: none;
+}
+
+q {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.adventure-logo {
+    align-items: center;
+    background-color: #DEE8F4;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.adventure-logo img {
+    image-rendering: high-quality;
+    margin: 20px;
+    max-width: calc(100% / 1.5);
+    object-fit: cover;
+}
+
+.bottom-container {
+    background-color: #148DB3;
+    padding-bottom: 80px;
+}
+
+.checkbox-input-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-input-rows input {
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    height: 20px;
+    margin-right: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.checkbox-input-rows li {
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
+
+.checkbox-input-rows ul {
+    margin: 0;
+}
+
+.cities-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cities {
+    background-color: #ffffff;
+    border: 1px solid #148DB3;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.cities h3 {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+}
+
+.cities img {
+    image-rendering: high-quality;
+    max-width: 25%;
+    object-fit: cover;
+}
+
+.cities p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    padding: 20px;
+}
+
+.company-and-logo {
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+
+.company-and-logo img {
+    margin: 20px;
+}
+
+.desktop {
+    display: none;
+}
+
+.destination-links {
+    border-top: 1px solid #DEE8F4;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.featured-destinations h2 {
+    background-color: #8A2C2D;
+    padding: 20px;
+    text-align: center;
+}
+
+.hamburger-menu {
+    display: flex;
+    height: 12px;
+    padding-right: 10px;
+}
+
+.input-form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-form-row label, .outer-form-container form label {
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+.input-form-row input {
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    display: flex;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    border: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.maroon {
+    background-color: #8A2C2D;
+}
+
+.mobile {
+    display: block;
+}
+
+.outer-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.outer-form-container h2 {
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.request-and-testimonials {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.testimonials-container {
+    align-items: center;
+    background-color: #8A2C2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 80px 0 80px;
+}
+
+.testimonial-person {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonial-person h3 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.testimonial-person img {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    max-width: 60%;
+    object-fit: cover;
+}
+
+.quote-width {
+    width: 200px;
+}
+
+.teal {
+    background-color: #148DB3;
+    margin: 0 20px 0 0;
+}
+
+@media screen and (min-width: 1100px) {
+
+    div {
+        width: auto;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    nav {
+        align-items: center;
+        display: flex;
+        flex: 1;
+    }
+
+    nav a {
+        color: #FFFFFF;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    q {
+        margin: 0;
+    }
+
+    .adventure-logo img {
+        height: 374px;
+        max-width: 100%;
+        padding: 80px 0 80px 0;
+    }
+
+    .cities {
+        flex-direction: column;
+    }
+
+    .cities img {
+        max-width: 100%;
+    }
+
+    .cities-container {
+        flex-direction: row;
+    }
+
+    .checkbox-input-rows {
+        flex-direction: row;
+    }
+
+    .checkbox-input-rows ul {
+        margin: 10px 120px 0 0;
+    }
+
+    .company-and-logo img {
+        margin: 0 20px 0 0;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .input-form-row {
+        width: calc(50% - 10px);
+    }
+
+    .input-rows {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 20px 0;
+    }
+
+    .outer-form-container {
+        align-items: center;
+    }
+
+    .outer-form-container form {
+        width: 75%;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .testimonials-container {
+        flex-direction: row;
+        padding: 40px 280px 40px 280px;
+    }
+
+    .testimonial-person {
+        margin: 0 20px 0 20px;
+    }
+}

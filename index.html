@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Excursions Unlimited</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <div class="company-and-logo">
+        <img src="images/mountains.png" alt="Excursions Unlimited mountain logo"/>
+        <h1>Excursions Unlimited</h1>
+        <img src="images/Shape.png" class="mobile hamburger-menu" alt="Hamburger Menu"/>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Adventures</a></li>
+            <li><a href="#">Gap Year Program</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="adventure-logo">
+    <img src="images/adventure-logo.png" alt="Excursions Unlimited adventure logo"/>
+</div>
+<section class="featured-destinations">
+    <h2 class="desktop">Join Us in Traveling to Our Featured Destinations</h2>
+    <h2 class="mobile">Featured Destinations</h2>
+    <div class="cities-container">
+        <div class="cities">
+            <img src="images/iceland.jpg" alt="Iceland image"/>
+            <div> <!-- This makes it remain in column in mobile -->
+                <h3>Iceland</h3>
+                <p>
+                    A Place of Wonder and Discovery.
+                </p>
+                <div class="destination-links">
+                    <a href="#" class="teal link">Details</a>
+                    <a href="#" class="maroon link">Book</a>
+                </div>
+            </div>
+        </div>
+        <div class="cities">
+            <img src="images/canada.jpg" alt="Alberta image"/>
+            <div> <!-- This makes it remain in column in mobile -->
+                <h3>Alberta, Canada</h3>
+                <p>
+                    Glowing Hearts and Big Adventure.
+                </p>
+                <div class="destination-links">
+                    <a href="#" class="teal link">Details</a>
+                    <a href="#" class="maroon link">Book</a>
+                </div>
+            </div>
+        </div>
+        <div class="cities">
+            <img src="images/norway.jpg" alt="Norway image"/>
+            <div> <!-- This makes it remain in column in mobile -->
+                <h3>Norway</h3>
+                <p>
+                    Powered By Nature.
+                </p>
+                <div class="destination-links">
+                    <a href="#" class="teal link">Details</a>
+                    <a href="#" class="maroon link">Book</a>
+                </div>
+            </div>
+        </div>
+        <div class="cities">
+            <img src="images/hokkaido.jpg" alt="Hokkaido image"/>
+            <div> <!-- This makes it remain in column in mobile -->
+                <h3>Hokkaido, Japan</h3>
+                <p>
+                    Discover Japan's Northern Frontier.
+                </p>
+                <div class="destination-links">
+                    <a href="#" class="teal link">Details</a>
+                    <a href="#" class="maroon link">Book</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bottom-container">
+    <section class="request-and-testimonials">
+        <div class="outer-form-container">
+            <h2>Request a Travel Planner</h2>
+            <form>
+                <div class="input-rows">
+                    <div class="input-form-row">
+                        <label for="first-name">First Name</label>
+                        <input id="first-name" type="text">
+                        <label for="last-name">Last Name</label>
+                        <input id="last-name" type="text">
+                    </div>
+                    <div class="input-form-row">
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="tel">
+                    </div>
+                </div>
+                <label>Please send me information on the following adventures:</label>
+                <div class="checkbox-input-rows">
+                    <ul>
+                        <li><input type="checkbox" name="adventure-location" value="iceland">Iceland</li>
+                        <li><input type="checkbox" name="adventure-location" value="norway">Norway</li>
+                    </ul>
+                    <ul>
+                        <li><input type="checkbox" name="adventure-location" value="alberta">Alberta, Canada</li>
+                        <li><input type="checkbox" name="adventure-location" value="hokkaido">Hokkaido, Japan</li>
+                    </ul>
+                </div>
+                <input class="maroon link" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <section class="testimonials-container">
+        <div class="testimonial-person">
+            <img src="images/natalie.jpg" alt="Natalie headshot"/>
+            <h3>Natalie</h3>
+            <q class="quote-width">Best adventure trip I have ever taken! Highly recommend!</q>
+        </div>
+        <div class="testimonial-person">
+            <img src="images/amir.jpg" alt="Amir headshot"/>
+            <h3>Amir</h3>
+            <q class="quote-width">10/10 ! Would definitely go again!</q>
+        </div>
+        <div class="testimonial-person">
+            <img src="images/jada.jpg" alt="Jada headshot"/>
+            <h3>Jada</h3>
+            <q class="quote-width">The tour guides are the best! I loved this adventure trip!</q>
+        </div>
+        <div class="testimonial-person">
+            <img src="images/christopher.jpg" alt="Christopher headshot"/>
+            <h3>Christopher</h3>
+            <q class="quote-width">Great! I am already planning my next trip.</q>
+        </div>
+    </section>
+</section>
+</body>
+
+</html>
