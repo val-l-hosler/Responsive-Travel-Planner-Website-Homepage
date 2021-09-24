@@ -351,6 +351,11 @@ q {
         flex-direction: row;
     }
 
+    .cities-div h3 {
+        background-color: #DEE8F4;
+        padding: 20px;
+    }
+
     .checkbox-input-rows {
         flex-direction: row;
     }
